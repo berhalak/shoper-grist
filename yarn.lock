@@ -36,6 +36,13 @@
     "@babel/helper-validator-identifier" "^7.14.9"
     to-fast-properties "^2.0.0"
 
+"@berhalak/grist-plugin-api@^0.0.1":
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/@berhalak/grist-plugin-api/-/grist-plugin-api-0.0.1.tgz#7428002f4cefd8103c1dcc121c0fe13fba4ea952"
+  integrity sha512-Sv1a/qFzTGJ0CJqecpmvdEoVyloqDZOSruid5aHzONcr0SFNcEs7gcMQhUEJZYA/YAliyxYB8QJNVSkWGVm4FQ==
+  dependencies:
+    grain-rpc "^0.1.7"
+
 "@emmetio/abbreviation@^2.2.2":
   version "2.2.2"
   resolved "https://registry.yarnpkg.com/@emmetio/abbreviation/-/abbreviation-2.2.2.tgz#746762fd9e7a8c2ea604f580c62e3cfe250e6989"
@@ -709,6 +716,11 @@ estree-walker@^2.0.2:
   resolved "https://registry.yarnpkg.com/estree-walker/-/estree-walker-2.0.2.tgz#52f010178c2a4c117a7757cfe942adb7d2da4cac"
   integrity sha512-Rfkk/Mp/DL7JVje3u18FxFujQlTNR2q6QfMSMB7AvCBx91NGj/ba3kCfza0f6dVDbw7YlRf/nDrn7pQrCCyQ/w==
 
+events@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/events/-/events-1.1.1.tgz#9ebdb7635ad099c70dcc4c2a1f5004288e8bd924"
+  integrity sha1-nr23Y1rQmccNzEwqH1AEKI6L2SQ=
+
 fast-glob@^3.2.7:
   version "3.2.7"
   resolved "https://registry.yarnpkg.com/fast-glob/-/fast-glob-3.2.7.tgz#fd6cb7a2d7e9aa7a7846111e85a196d6b2f766a1"
@@ -738,6 +750,11 @@ fraction.js@^4.1.1:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/fraction.js/-/fraction.js-4.1.1.tgz#ac4e520473dae67012d618aab91eda09bcb400ff"
   integrity sha512-MHOhvvxHTfRFpF1geTK9czMIZ6xclsEor2wkIGYYq+PxcQqT7vStJqjhe6S1TenZrMZzo+wlqOufBDVepUEgPg==
+
+fromit@^2.0.23:
+  version "2.0.23"
+  resolved "https://registry.yarnpkg.com/fromit/-/fromit-2.0.23.tgz#3666cf1cae962cbba4a39355830e6cae147b1564"
+  integrity sha512-9NF1Is6MaCGH6T6kRb0mF3qZ45c154h0evb6Ne7kIJmYa/7H1xPToCAesxY4uRwCNdNXWeBTz0thfmoMQP0TKw==
 
 fs-extra@^10.0.0:
   version "10.0.0"
@@ -802,6 +819,14 @@ graceful-fs@^4.1.6, graceful-fs@^4.2.0:
   version "4.2.8"
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.2.8.tgz#e412b8d33f5e006593cbd3cee6df9f2cebbe802a"
   integrity sha512-qkIilPUYcNhJpd33n0GBXTB1MMPp14TxEsEs0pTrsSVucApsYzW5V+Q8Qxhik6KU3evy+qkAAowTByymK0avdg==
+
+grain-rpc@^0.1.7:
+  version "0.1.7"
+  resolved "https://registry.yarnpkg.com/grain-rpc/-/grain-rpc-0.1.7.tgz#e69dcba6a5788f0a20542a427de6f708cf0699e8"
+  integrity sha512-ExN19s6e/VfiQQupb52uI9yIz2FWgL702yelYn3N4sS5/+jkDjC4MhLNJpfp8LxAdBIknJ3kTztzVz+PdRpBVg==
+  dependencies:
+    events "^1.1.1"
+    ts-interface-checker "^1.0.0"
 
 has-flag@^3.0.0:
   version "3.0.0"
@@ -1532,6 +1557,11 @@ token-stream@1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/token-stream/-/token-stream-1.0.0.tgz#cc200eab2613f4166d27ff9afc7ca56d49df6eb4"
   integrity sha1-zCAOqyYT9BZtJ/+a/HylbUnfbrQ=
+
+ts-interface-checker@^1.0.0:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/ts-interface-checker/-/ts-interface-checker-1.0.2.tgz#63f73a098b0ed34b982df1f490c54890e8e5e0b3"
+  integrity sha512-4IKKvhZRXhvtYF/mtu+OCfBqJKV6LczUq4kQYcpT+iSB7++R9+giWnp2ecwWMIcnG16btVOkXFnoxLSYMN1Q1g==
 
 typescript@^4.4.4:
   version "4.4.4"

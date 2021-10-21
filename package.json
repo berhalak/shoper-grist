@@ -7,6 +7,8 @@
     "serve": "vite preview"
   },
   "dependencies": {
+    "@berhalak/grist-plugin-api": "^0.0.1",
+    "fromit": "^2.0.23",
     "vue": "^3.2.16"
   },
   "devDependencies": {
